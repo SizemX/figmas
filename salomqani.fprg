@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="salomqani"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 07:56:17 PM"/>
+        <attribute name="created" value="dXNlcjtXSU4tM04xRkExVUdWMzU7MjAyNC0xMC0wMjswNzo0OTo0NyBQTTsyNzI0"/>
+        <attribute name="edited" value="dXNlcjtXSU4tM04xRkExVUdWMzU7MjAyNC0xMC0wMjswNzo1NjoxNyBQTTsxOzI4Mjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="String" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n==&quot;salom&quot;">
+                <then>
+                    <output expression="&quot;alik&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n==&quot;alik&quot;">
+                        <then>
+                            <output expression="&quot;salom&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;salom qani&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

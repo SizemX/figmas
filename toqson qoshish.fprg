@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="toqson qoshish"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 08:09:48 PM"/>
+        <attribute name="created" value="dXNlcjtXSU4tM04xRkExVUdWMzU7MjAyNC0xMC0wMjswNzo1ODozMSBQTTsyNzE3"/>
+        <attribute name="edited" value="dXNlcjtXSU4tM04xRkExVUdWMzU7MjAyNC0xMC0wMjswODowOTo0OCBQTTsxOzI4MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, sum, son, i" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="sum" expression="0"/>
+            <for variable="i" start="a" end="b" direction="inc" step="1">
+                <assign variable="sum" expression="sum+i"/>
+                <if expression="i%2!=0">
+                    <then>
+                        <output expression="sum" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

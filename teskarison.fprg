@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="teskarison"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 07:48:39 PM"/>
+        <attribute name="created" value="dXNlcjtXSU4tM04xRkExVUdWMzU7MjAyNC0xMC0wMjswNzozNjozMCBQTTsyNzEy"/>
+        <attribute name="edited" value="dXNlcjtXSU4tM04xRkExVUdWMzU7MjAyNC0xMC0wMjswNzo0ODozOSBQTTsxOzI4MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, qoldiq1, qoldiq2, qoldiq3, qoldiq4, teskarison" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="qoldiq1" expression="n%10"/>
+            <assign variable="n" expression="n/10"/>
+            <assign variable="qoldiq2" expression="n%10"/>
+            <assign variable="n" expression="n/10"/>
+            <assign variable="qoldiq3" expression="n % 10"/>
+            <assign variable="n" expression="n/10"/>
+            <assign variable="qoldiq4" expression="n"/>
+            <assign variable="teskarison" expression="qoldiq1 * 1000 + qoldiq2 * 100 + qoldiq3 * 10 + qoldiq4"/>
+            <output expression="teskarison" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
